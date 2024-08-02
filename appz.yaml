@@ -1,7 +1,7 @@
 app: 
   code: MINIO
   name: minio
-  notify: srswain@ecloudcontrol.com
+  notify: apsuresh@ecloudcontrol.com
 build: 
   build_file: none
   env: DEV
@@ -9,7 +9,7 @@ build:
   output_files: output/*.zip
   version: 2.0
 deploy: 
-  context: sranjan1995/DEV
+  context: justathul/DEV
   type: statefulset
   ingress: none
   replicas: 1
